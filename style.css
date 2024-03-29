@@ -88,6 +88,9 @@ a:hover{
     border-radius: 10px;
 }
 
+#unique{
+    background-color: white;
+}
 @media all and (min-width: 280px) and (max-width: 1024px) {
     body{
         margin-left: 15px;
