@@ -90,6 +90,85 @@ a:hover{
 
 #unique{
     background-color: white;
+   /* margin-top: -50px; */
+   padding-top: 20px;
+}
+#icons{
+    display: flex;
+   justify-content: space-evenly; 
+}
+#features{
+    text-align: center;
+}
+#Pic{
+    border-radius: 20px;
+}
+.pictures{
+    display: flex;
+    gap: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#Top{
+    text-align: center;
+}
+.Buttons{
+    text-align: center;
+    gap: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+}
+#general{
+    background-color: white;
+    padding-top: 20px;
+}
+#BTN{
+    text-align: center;
+}
+#pictures-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#buttons{
+    display: flex;
+    
+}
+.reviews{
+    background-color: white;
+    padding-top: 20px;
+}
+#clients{
+    display: flex;
+    justify-content: space-between; 
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#blog{
+    text-align: center;
+}
+#explore{
+    background-image: url(/images/burner-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 34vh;
+    padding-top: 50px;
+    width: 80vh;
+    color: white;
+    border-radius: 20px; 
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.april{
+    margin-top: 150px;
+}
+#travel-pricing{
+    display: flex;
+    gap: 50px;
+}
+.timeless{
+    background-color: white;
+    padding-top: 20px;
 }
 @media all and (min-width: 280px) and (max-width: 1024px) {
     body{
@@ -144,4 +223,35 @@ a:hover{
      .scenery-pic{
         width: 50px;
     } 
+    #icons{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: space-evenly; 
+    }
+    #Pic{
+        border-radius: 20px;
+        width: 200px;
+    }
+    .pictures{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    #explore{
+        background-image: url(/images/burner-background.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 34vh;
+        padding-top: 50px;
+        width: 80vh;
+        color: white;
+        border-radius: 20px; 
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .april{
+        margin-top: 50px;
+    }
 } 
